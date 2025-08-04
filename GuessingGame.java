@@ -15,7 +15,7 @@ public class GuessingGame {
             randNumber= rand.nextInt(1,7);
             if (guess==randNumber)
             {
-                System.out.println("You guessed it right mf 🤩\n");
+                System.out.println("You guessed it right 🤩\n");
             }
             else
             {
