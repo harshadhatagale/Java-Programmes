@@ -1,8 +1,9 @@
 public class Patterns{
     public static void main(String[] args)
     {
-        System.out.println("Hello MF!");
-        diamond();
+        System.out.println("Hello World!");
+        LATriangle();
+        // diamond();
     }
 
     static  void diamond()
@@ -38,6 +39,21 @@ public class Patterns{
                 ch++;
             }
             System.out.print("\n");
+        }
+    }
+
+    static void LATriangle()
+    {
+        int size=4;
+        int num=1;
+        for (int i=1; i<=size; i++)
+        {
+            for (int j=1; j<=i; j++)
+            {
+                System.out.printf("%d ", num);
+                num++;
+            }
+            System.out.println("");
         }
     }
 }
